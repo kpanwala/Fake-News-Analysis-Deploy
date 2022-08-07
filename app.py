@@ -44,7 +44,7 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt 
 import zipfile
 from flask import request
-import Gunicorn
+import gunicorn
 
 # Flask constructor takes the name of
 # current module (__name__) as argument.
